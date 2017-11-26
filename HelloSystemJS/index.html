@@ -1,0 +1,13 @@
+<tmlh>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.20.19/system.js"></script>
+<script src="systemjs.config.js"></script>
+<!-- This is the combined JS files containing both `main` and `resource` modules. If you comment out this statement,
+ those modules will be loaded dynamically. Try it! Don't forget to open the networking tab if your browser and compare
+ with the case when this file is loaded vs when it is not. -->
+<script src="src/all.js"></script>
+<script>
+    SystemJS.import('main');
+</script>
+</body>
+</tmlh>

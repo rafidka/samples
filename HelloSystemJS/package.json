@@ -1,0 +1,21 @@
+{
+  "name": "hellosystemjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "dependencies": {
+    "@types/jquery": "^3.2.16",
+    "typescript": "^2.6.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-systemjs-builder": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.17",
+    "lite-server": "^2.3.0"
+  },
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "",
+  "license": "ISC"
+}

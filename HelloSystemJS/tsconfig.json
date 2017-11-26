@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "moduleResolution": "classic",
+    "baseUrl": "./src",
+    "typeRoots": [
+      "./node_modules/@types/"
+    ],
+    "types": [
+      "jquery"
+    ],
+    "lib": [
+      "dom",
+      "es5",
+      "es2015.iterable"
+    ]
+  },
+  "include": [
+    "./src/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
