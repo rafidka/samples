@@ -1,0 +1,29 @@
+{
+  "name": "hello-rxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "exec": "tsc && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafidka/samples.git"
+  },
+  "keywords": [
+    "rxjs",
+    "typescript"
+  ],
+  "author": "Rafid K. Al-Humaimidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafidka/samples/issues"
+  },
+  "homepage": "https://github.com/rafidka/samples#readme",
+  "dependencies": {
+    "@types/node": "^10.1.2",
+    "rxjs": "^6.2.0",
+    "typescript": "^2.8.3"
+  }
+}
